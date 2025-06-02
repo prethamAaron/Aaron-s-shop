@@ -1,0 +1,111 @@
+< html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Small Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f2f2f2;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .product-card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      width: 200px;
+      text-align: center;
+    }
+
+    footer {
+      background: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>My Small Shop</h1>
+    <p>Your friendly neighborhood store</p>
+  </header>
+
+  <nav>
+    <a href="#products">Products</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <h3>Product 1</h3>
+        <p>₹199</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <h3>Product 2</h3>
+        <p>₹299</p>
+        <button>Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <h3>Product 3</h3>
+        <p>₹399</p>
+        <button>Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We are a local shop offering affordable and high-quality products to our community.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Phone: 9876543210<br>Email: shop@example.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 My Small Shop</p>
+  </footer>
+
+</body>
+</html>
